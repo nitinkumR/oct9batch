@@ -23,7 +23,7 @@ import Utilis.Utility;
 		private WebElement password;
 		@FindBy (xpath="//button[@value='1']")
 		private WebElement login;
-		
+		//constructor
 		public LoginPage(WebDriver driver)
 		{
 			PageFactory.initElements(driver, this);
